@@ -17,7 +17,7 @@ public class Get_anime: MonoBehaviour {
 		//	Debug.Log("closeNow_true");
 		}
 		if (stateInfo.IsName ("Base.stopEND")) {
-		Invoke("RriggerF",0.2f);
+		Invoke("RriggerF",0.1f);
 		}
 	}
 	void RriggerF (){
